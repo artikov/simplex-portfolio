@@ -7,10 +7,10 @@ const Hero = () => {
 		<div className="flex flex-col-reverse md:flex-row lg:mt-16 md:mt-12">
 			<div className="md:w-1/2 flex flex-col md:items-start items-center lg:gap-16 gap-6 -mt-16 sm:-mt-24 md:mt-0">
 				<div className="leading-none md:mt-16 z-10">
-					<p className="miami xl:text-[170px] md:text-9xl sm:text-8xl text-6xl">
+					<p className="gradient-text miami xl:text-[170px] md:text-9xl sm:text-8xl text-6xl font-extrabold tracking-tighter">
 						MIAMI
 					</p>
-					<p className="walker xl:text-[170px] md:text-9xl sm:text-8xl text-6xl">
+					<p className="xl:text-[170px] md:text-9xl sm:text-8xl text-6xl font-extrabold md:tracking-tighter tracking-normal">
 						WALKE
 						<span className="md:text-white md:absolute">R</span>
 					</p>

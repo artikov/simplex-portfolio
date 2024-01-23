@@ -10,7 +10,12 @@ import paperz from "./icons/logos/paperz.svg";
 
 import face from "./images/xestfolio-face.jpeg";
 
-export { logo, menu, close, face };
+import ui from "./images/ui.png";
+import ux from "./images/ux.png";
+import analysis from "./images/analysis.png";
+import design from "./images/design.png";
+
+export { logo, menu, close, face, ui, ux, analysis, design };
 
 export const trustedCompanies = [
 	{
