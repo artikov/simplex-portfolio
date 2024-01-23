@@ -2,10 +2,10 @@ import { trustedCompanies } from "../assets";
 
 const Trusted = () => {
 	return (
-		<div className="mt-32">
+		<div className="lg:mt-32 mt-16">
 			<p className="text-[#12141D]">Trusted By</p>
 
-			<div className="flex flex-wrap justify-between mt-6">
+			<div className="flex flex-wrap sm:justify-between justify-center mt-6">
 				{trustedCompanies.map((company) => (
 					<div
 						key={company.id}

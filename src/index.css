@@ -41,13 +41,33 @@ body {
 		rgb(244, 51, 102) 100%
 	);
 	background-clip: text;
-	font-size: 170px;
 	font-weight: 800;
 	letter-spacing: 0;
 }
 
 .walker {
-	font-size: 170px;
 	font-weight: 800;
 	letter-spacing: -8.5px;
+}
+
+@media screen and (max-width: 768px) {
+	.walker {
+		letter-spacing: 0;
+	}
+	.miami {
+		background: white;
+	}
+}
+
+@keyframes scroll {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+.animate-scroll {
+	animation: scroll 20s linear infinite;
 }

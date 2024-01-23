@@ -13,7 +13,7 @@ const Navbar = () => {
 		<nav className="w-full flex py-6 justify-between items-center h-[100px]">
 			<img src={logo} alt="logo" className="w-[72px] h-[52px]" />
 
-			<ul className="sm:flex hidden justify-end items-center">
+			<ul className="md:flex hidden justify-end items-center">
 				{navLinks.map((nav) =>
 					nav.id == "contact" ? (
 						<StyledButton key={nav.id} title={nav.title} />
@@ -25,7 +25,7 @@ const Navbar = () => {
 				)}
 			</ul>
 
-			<div className="sm:hidden flex flex-1 justify-end items-center">
+			<div className="md:hidden flex flex-1 justify-end items-center">
 				<img
 					src={toggle ? close : menu}
 					alt="menu"
