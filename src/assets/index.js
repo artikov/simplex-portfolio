@@ -1,5 +1,7 @@
-import logo from "./xestfolio.svg";
-import menu from "./menu.svg";
-import close from "./close.svg";
+import logo from "./icons/xestfolio.svg";
+import menu from "./icons/menu.svg";
+import close from "./icons/close.svg";
 
-export { logo, menu, close };
+import face from "./images/xestfolio-face.jpeg";
+
+export { logo, menu, close, face };
