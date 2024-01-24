@@ -1,6 +1,7 @@
 import logo from "./icons/xestfolio.svg";
 import menu from "./icons/menu.svg";
 import close from "./icons/close.svg";
+import arrow from "./icons/arrow.svg";
 
 import square from "./icons/logos/square.svg";
 import dorfus from "./icons/logos/dorfus.svg";
@@ -19,7 +20,22 @@ import album1 from "./images/album-1.jpeg";
 import album2 from "./images/album-2.jpeg";
 import album3 from "./images/album-3.jpeg";
 
-export { logo, menu, close, face, ui, ux, analysis, design };
+import blog from "./images/blog.png";
+import blog1 from "./images/blog-1.png";
+
+export {
+	logo,
+	menu,
+	close,
+	face,
+	ui,
+	ux,
+	analysis,
+	design,
+	blog,
+	blog1,
+	arrow,
+};
 
 export const trustedCompanies = [
 	{

@@ -7,6 +7,11 @@ import {
 	Features,
 	Stats,
 	Portfolio,
+	Blog,
+	Testimonials,
+	FAQs,
+	Contact,
+	Footer,
 } from "./components";
 
 function App() {
@@ -18,6 +23,11 @@ function App() {
 			<Features />
 			<Stats />
 			<Portfolio />
+			<Blog />
+			<Testimonials />
+			<FAQs />
+			<Contact />
+			<Footer />
 		</>
 	);
 }
