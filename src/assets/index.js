@@ -15,6 +15,10 @@ import ux from "./images/ux.png";
 import analysis from "./images/analysis.png";
 import design from "./images/design.png";
 
+import album1 from "./images/album-1.jpeg";
+import album2 from "./images/album-2.jpeg";
+import album3 from "./images/album-3.jpeg";
+
 export { logo, menu, close, face, ui, ux, analysis, design };
 
 export const trustedCompanies = [
@@ -37,5 +41,44 @@ export const trustedCompanies = [
 	{
 		id: 5,
 		image: gobon,
+	},
+];
+
+export const portfolioAlbum = [
+	{
+		id: 1,
+		image: album1,
+	},
+	{
+		id: 2,
+		image: album2,
+	},
+	{
+		id: 3,
+		image: album3,
+	},
+	{
+		id: 4,
+		image: album3,
+	},
+	{
+		id: 5,
+		image: album2,
+	},
+	{
+		id: 6,
+		image: album1,
+	},
+	{
+		id: 7,
+		image: album1,
+	},
+	{
+		id: 8,
+		image: album2,
+	},
+	{
+		id: 9,
+		image: album3,
 	},
 ];

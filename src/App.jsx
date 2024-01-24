@@ -1,6 +1,13 @@
 import "./App.css";
 
-import { Navbar, Hero, Trusted, Features } from "./components";
+import {
+	Navbar,
+	Hero,
+	Trusted,
+	Features,
+	Stats,
+	Portfolio,
+} from "./components";
 
 function App() {
 	return (
@@ -9,6 +16,8 @@ function App() {
 			<Hero />
 			<Trusted />
 			<Features />
+			<Stats />
+			<Portfolio />
 		</>
 	);
 }

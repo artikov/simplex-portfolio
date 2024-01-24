@@ -6,10 +6,10 @@ const Features = () => {
 	return (
 		<div className="flex flex-col md:flex-row mt-28">
 			<div className="md:w-1/2 flex flex-col md:gap-12 gap-6">
-				<div>
-					<p className="gradient-text text-sm tracking-wider font-semibold uppercase text-left">
+				<div className="flex flex-col items-start">
+					<div className="gradient-text text-sm tracking-wider font-semibold uppercase ">
 						Features
-					</p>
+					</div>
 					<h3 className="font-semibold text-[28px] md:text-[32px] lg:text-[40px] text-left text-balance font-poppins">
 						Giving Your Business Some Great Ideas
 					</h3>
