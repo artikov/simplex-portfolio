@@ -2,4 +2,4 @@
 
 Simplex XestFolio Portfolio
 
-https://github.com/artikov/simplex-portfolio
+https://simplex-portfolio.vercel.app/
