@@ -9,7 +9,14 @@ import gobon from "./icons/logos/gobon.svg";
 import martino from "./icons/logos/martino.svg";
 import paperz from "./icons/logos/paperz.svg";
 
+import quoteup from "./icons/quote-up.svg";
+import star from "./icons/star.svg";
+
+import arrowDown from "./icons/arrow-down.svg";
+
 import face from "./images/xestfolio-face.jpeg";
+
+import client from "./images/client.png";
 
 import ui from "./images/ui.png";
 import ux from "./images/ux.png";
@@ -35,6 +42,10 @@ export {
 	blog,
 	blog1,
 	arrow,
+	quoteup,
+	client,
+	star,
+	arrowDown,
 };
 
 export const trustedCompanies = [

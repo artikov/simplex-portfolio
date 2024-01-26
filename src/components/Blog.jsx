@@ -20,7 +20,7 @@ const Blog = () => {
 				</div>
 				<StyledButton title="Load More" light />
 			</div>
-			<div className="grid grid-flow-col md:grid-flow-row md:grid-cols-2 gap-10 mt-20 overflow-x-auto">
+			<div className="grid grid-flow-col md:grid-flow-row md:grid-cols-2 gap-10 mt-20 overflow-x-auto md:overflow-hidden">
 				{blogs.map((blog, index) => (
 					<div
 						key={index + blog.category}
