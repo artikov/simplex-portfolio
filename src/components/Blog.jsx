@@ -6,7 +6,7 @@ import StyledButton from "./StyledButton";
 const Blog = () => {
 	return (
 		<div
-			id="blog"
+			id="blogs"
 			className="bg-[#181818] mt-24 pt-16 pb-16 -mx-[24px] px-[24px] md:-mx-[72px] md:px-[72px] lg:-mx-[150px] lg:px-[150px]"
 		>
 			<div className="flex flex-col md:flex-row justify-between">

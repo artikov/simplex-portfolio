@@ -2,7 +2,7 @@ import { arrow, logo } from "../assets";
 
 const Contact = () => {
 	return (
-		<div className="mt-24 flex flex-col items-center gap-10">
+		<div id="contact" className="mt-24 flex flex-col items-center gap-10">
 			<div className="flex flex-col items-center">
 				<p className="gradient-text text-sm tracking-wider font-semibold uppercase">
 					Have you project in mind?
@@ -13,7 +13,7 @@ const Contact = () => {
 					Great Together!
 				</h3>
 			</div>
-			<div className="w-[143px] md:w-[250px] h-[143px] md:h-[250px] [background:linear-gradient(180deg,#6737D3,#D73780)] rounded-full flex flex-col items-center justify-center gap-4">
+			<div className="w-[143px] md:w-[250px] h-[143px] md:h-[250px] [background:linear-gradient(180deg,#6737D3,#D73780)] rounded-full flex flex-col items-center justify-center gap-4 cursor-pointer">
 				<p className="uppercase text-[12px] md:text-base font-bold text-white tracking-wider mt-8">
 					Contact with us
 				</p>

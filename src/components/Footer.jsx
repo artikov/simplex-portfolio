@@ -3,7 +3,7 @@ import { facebook, instagram, linkedin, be, social } from "../assets";
 const Footer = () => {
 	return (
 		<div className="mt-24 mb-10">
-			<div className="flex items-center justify-center gap-10 md:gap-32 mb-12">
+			<div className="flex items-center justify-center gap-6 sm:gap-10 md:gap-32 mb-12">
 				<img src={facebook} alt="" />
 				<img src={linkedin} alt="" />
 				<img src={instagram} alt="" />

@@ -4,7 +4,7 @@ import StyledButton from "./StyledButton";
 
 const Features = () => {
 	return (
-		<div className="flex flex-col md:flex-row mt-28">
+		<div id="services" className="flex flex-col md:flex-row mt-28">
 			<div className="md:w-1/2 flex flex-col md:gap-12 gap-6">
 				<div className="flex flex-col items-start">
 					<div className="gradient-text text-sm tracking-wider font-semibold uppercase ">

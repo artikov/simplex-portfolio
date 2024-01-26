@@ -4,7 +4,10 @@ import StyledButton from "./StyledButton";
 
 const Hero = () => {
 	return (
-		<div className="flex flex-col-reverse md:flex-row lg:mt-16 md:mt-12">
+		<div
+			id="about"
+			className="flex flex-col-reverse md:flex-row lg:mt-16 md:mt-12"
+		>
 			<div className="md:w-1/2 flex flex-col md:items-start items-center lg:gap-16 gap-6 -mt-16 sm:-mt-24 md:mt-0">
 				<div className="leading-none md:mt-16 z-10">
 					<p className="gradient-text miami xl:text-[170px] md:text-9xl sm:text-8xl text-6xl font-extrabold tracking-tighter">
