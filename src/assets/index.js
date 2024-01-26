@@ -14,6 +14,12 @@ import star from "./icons/star.svg";
 
 import arrowDown from "./icons/arrow-down.svg";
 
+import facebook from "./icons/facebook.svg";
+import linkedin from "./icons/linkedin.svg";
+import instagram from "./icons/instagram.svg";
+import be from "./icons/be.svg";
+import social from "./icons/social.svg";
+
 import face from "./images/xestfolio-face.jpeg";
 
 import client from "./images/client.png";
@@ -46,6 +52,11 @@ export {
 	client,
 	star,
 	arrowDown,
+	facebook,
+	instagram,
+	linkedin,
+	be,
+	social,
 };
 
 export const trustedCompanies = [
