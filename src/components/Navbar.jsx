@@ -16,7 +16,7 @@ const Navbar = () => {
 			<ul className="md:flex hidden justify-end items-center">
 				{navLinks.map((nav) =>
 					nav.id == "contact" ? (
-						<StyledButton key={nav.id} title={nav.title} />
+						<StyledButton key={nav.id} id={nav.id} title={nav.title} />
 					) : (
 						<li key={nav.id} className={`cursor-pointer text-lg mr-9`}>
 							<a href={`#${nav.id}`}>{nav.title}</a>

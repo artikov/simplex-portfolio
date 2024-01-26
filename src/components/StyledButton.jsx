@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const StyledButton = ({ title, light }) => {
+const StyledButton = ({ title, light, id }) => {
 	return (
 		<div className="w-[172px] h-[67px] relative ">
 			<div className="absolute cursor-pointer w-[157px] h-[58px] top-[9px] left-[15px] [background:linear-gradient(90deg,#4B34E4,#EE346B)]" />
@@ -10,7 +10,7 @@ const StyledButton = ({ title, light }) => {
 				}`}
 			>
 				<div className={`font-mediumtext-lg ${!light && "text-white"}`}>
-					{title}
+					<a href={`#${id}`}>{title}</a>
 				</div>
 			</div>
 		</div>
@@ -20,6 +20,7 @@ const StyledButton = ({ title, light }) => {
 StyledButton.propTypes = {
 	title: PropTypes.string.isRequired,
 	light: PropTypes.bool,
+	id: PropTypes.string,
 };
 
 export default StyledButton;
